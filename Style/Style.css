@@ -9,6 +9,11 @@
     border: 0px;
     border-radius: 5px;
     font-size: 20px;
+    padding: 15px;
+}
+
+header{
+    padding: 0% 0% 0% 10%;
 }
 
 /* Specific Style */
@@ -34,7 +39,7 @@ nav{
     align-items: center;
 }
 nav li{
-    margin-right: 50px;
+    margin-left: 50px;
     font-size: 20px;
     list-style: none;
 }
@@ -45,3 +50,12 @@ nav a{
 nav ul{
     align-items: center;
 }
+.banner{
+    display: flex;
+    align-items: center;
+}
+.developer-image{
+    padding: 0px;
+    display: flex;
+}
+

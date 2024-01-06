@@ -1,3 +1,47 @@
+
+/* Shared Styles */
+
 *{
-    padding: 0% 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+.button{
+    background-color: #FD6E0A;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Specific Style */
+
+.website_name{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.primary_color{
+    color:#FD6E0A;
+}
+
+#button1{
+    width: 150px;
+    height: 64px;
+}
+
+nav{
+    display: flex;
+    padding:0% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    margin-right: 50px;
+    font-size: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    align-items: center;
 }
